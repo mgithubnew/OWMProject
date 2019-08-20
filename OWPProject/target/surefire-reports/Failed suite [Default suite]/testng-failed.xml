@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Failed suite [Default suite]]">
+  <test thread-count="5" verbose="0" name="Default test(failed)(failed)">
+    <classes>
+      <class name="com.qa.test.OpenWeatherMapTest">
+        <methods>
+          <include name="validateNameOfCityInOutputTest"/>
+          <include name="validateWeatherLinkOnPageTest"/>
+          <include name="validateMapsDropDownPageTest"/>
+          <include name="validateStationLinkTest"/>
+          <include name="validateAPILink"/>
+          <include name="tearDown"/>
+          <include name="validateWeatherImgTest"/>
+          <include name="invalidCityTest"/>
+          <include name="checkWeatherpgaeLogo"/>
+          <include name="validateWidgetsLinkTest"/>
+          <include name="validateBlogLinkTest"/>
+          <include name="validatePageTitleTest"/>
+          <include name="validatePriceLinkTest"/>
+          <include name="validatePartnersLinkTest"/>
+          <include name="setup"/>
+          <include name="validateSupportLinkTest"/>
+          <include name="validateFlagofCityTest"/>
+          <include name="validateWeatherTest"/>
+          <include name="validCityTest"/>
+          <include name="validateGuideLinkTest"/>
+        </methods>
+      </class> <!-- com.qa.test.OpenWeatherMapTest -->
+    </classes>
+  </test> <!-- Default test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Default suite]] -->

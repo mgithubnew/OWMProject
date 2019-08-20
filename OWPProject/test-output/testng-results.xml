@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="3" ignored="0" total="18" passed="15">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="76072" started-at="2019-08-18T17:39:34Z" finished-at="2019-08-18T17:40:50Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="76072" started-at="2019-08-18T17:39:34Z" finished-at="2019-08-18T17:40:50Z">
+      <class name="com.qa.test.OpenWeatherMapTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.test.OpenWeatherMapTest@4fe3c938]" name="setup" is-config="true" duration-ms="64449" started-at="2019-08-18T17:39:34Z" finished-at="2019-08-18T17:40:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="validatePageTitleTest()[pri:1, instance:com.qa.test.OpenWeatherMapTest@4fe3c938]" name="validatePageTitleTest" duration-ms="36" started-at="2019-08-18T17:40:38Z" finished-at="2019-08-18T17:40:38Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Title not matched expected [Current weather and forecast - OpenWeatherMap] but found [Сurrent weather and forecast - OpenWeatherMap]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Title not matched expected [Current weather and forecast - OpenWeatherMap] but found [Сurrent weather and forecast - OpenWeatherMap]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at com.qa.test.OpenWeatherMapTest.validatePageTitleTest(OpenWeatherMapTest.java:34)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePageTitleTest -->
+        <test-method status="PASS" signature="checkWeatherpgaeLogo()[pri:2, instance:com.qa.test.OpenWeatherMapTest@4fe3c938]" name="checkWeatherpgaeLogo" duration-ms="139" started-at="2019-08-18T17:40:39Z" finished-at="2019-08-18T17:40:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkWeatherpgaeLogo -->
+        <test-method status="FAIL" signature="invalidCityTest()[pri:3, instance:com.qa.test.OpenWeatherMapTest@4fe3c938]" name="invalidCityTest" duration-ms="6927" started-at="2019-08-18T17:40:39Z" finished-at="2019-08-18T17:40:46Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Lable is not correct expected [Not found] but found [×
+Not found]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Lable is not correct expected [Not found] but found [×
+Not found]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at com.qa.test.OpenWeatherMapTest.invalidCityTest(OpenWeatherMapTest.java:45)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidCityTest -->
+        <test-method status="PASS" signature="validCityTest()[pri:4, instance:com.qa.test.OpenWeatherMapTest@4fe3c938]" name="validCityTest" duration-ms="314" started-at="2019-08-18T17:40:46Z" finished-at="2019-08-18T17:40:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validCityTest -->
+        <test-method status="PASS" signature="validateWeatherImgTest()[pri:5, instance:com.qa.test.OpenWeatherMapTest@4fe3c938]" name="validateWeatherImgTest" duration-ms="872" started-at="2019-08-18T17:40:47Z" finished-at="2019-08-18T17:40:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateWeatherImgTest -->
+        <test-method status="PASS" signature="validateNameOfCityInOutputTest()[pri:6, instance:com.qa.test.OpenWeatherMapTest@4fe3c938]" name="validateNameOfCityInOutputTest" duration-ms="59" started-at="2019-08-18T17:40:47Z" finished-at="2019-08-18T17:40:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNameOfCityInOutputTest -->
+        <test-method status="FAIL" signature="validateFlagofCityTest()[pri:7, instance:com.qa.test.OpenWeatherMapTest@4fe3c938]" name="validateFlagofCityTest" duration-ms="48" started-at="2019-08-18T17:40:47Z" finished-at="2019-08-18T17:40:48Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at com.qa.test.OpenWeatherMapTest.validateFlagofCityTest(OpenWeatherMapTest.java:71)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFlagofCityTest -->
+        <test-method status="PASS" signature="validateWeatherTest()[pri:8, instance:com.qa.test.OpenWeatherMapTest@4fe3c938]" name="validateWeatherTest" duration-ms="53" started-at="2019-08-18T17:40:48Z" finished-at="2019-08-18T17:40:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateWeatherTest -->
+        <test-method status="PASS" signature="validateWeatherLinkOnPageTest()[pri:9, instance:com.qa.test.OpenWeatherMapTest@4fe3c938]" name="validateWeatherLinkOnPageTest" duration-ms="78" started-at="2019-08-18T17:40:48Z" finished-at="2019-08-18T17:40:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateWeatherLinkOnPageTest -->
+        <test-method status="PASS" signature="validateMapsDropDownPageTest()[pri:10, instance:com.qa.test.OpenWeatherMapTest@4fe3c938]" name="validateMapsDropDownPageTest" duration-ms="84" started-at="2019-08-18T17:40:48Z" finished-at="2019-08-18T17:40:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMapsDropDownPageTest -->
+        <test-method status="PASS" signature="validateGuideLinkTest()[pri:11, instance:com.qa.test.OpenWeatherMapTest@4fe3c938]" name="validateGuideLinkTest" duration-ms="82" started-at="2019-08-18T17:40:48Z" finished-at="2019-08-18T17:40:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateGuideLinkTest -->
+        <test-method status="PASS" signature="validateAPILink()[pri:12, instance:com.qa.test.OpenWeatherMapTest@4fe3c938]" name="validateAPILink" duration-ms="76" started-at="2019-08-18T17:40:48Z" finished-at="2019-08-18T17:40:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAPILink -->
+        <test-method status="PASS" signature="validatePriceLinkTest()[pri:13, instance:com.qa.test.OpenWeatherMapTest@4fe3c938]" name="validatePriceLinkTest" duration-ms="87" started-at="2019-08-18T17:40:48Z" finished-at="2019-08-18T17:40:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePriceLinkTest -->
+        <test-method status="PASS" signature="validatePartnersLinkTest()[pri:14, instance:com.qa.test.OpenWeatherMapTest@4fe3c938]" name="validatePartnersLinkTest" duration-ms="84" started-at="2019-08-18T17:40:48Z" finished-at="2019-08-18T17:40:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePartnersLinkTest -->
+        <test-method status="PASS" signature="validateStationLinkTest()[pri:15, instance:com.qa.test.OpenWeatherMapTest@4fe3c938]" name="validateStationLinkTest" duration-ms="90" started-at="2019-08-18T17:40:48Z" finished-at="2019-08-18T17:40:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateStationLinkTest -->
+        <test-method status="PASS" signature="validateWidgetsLinkTest()[pri:16, instance:com.qa.test.OpenWeatherMapTest@4fe3c938]" name="validateWidgetsLinkTest" duration-ms="83" started-at="2019-08-18T17:40:49Z" finished-at="2019-08-18T17:40:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateWidgetsLinkTest -->
+        <test-method status="PASS" signature="validateBlogLinkTest()[pri:17, instance:com.qa.test.OpenWeatherMapTest@4fe3c938]" name="validateBlogLinkTest" duration-ms="75" started-at="2019-08-18T17:40:49Z" finished-at="2019-08-18T17:40:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateBlogLinkTest -->
+        <test-method status="PASS" signature="validateSupportLinkTest()[pri:18, instance:com.qa.test.OpenWeatherMapTest@4fe3c938]" name="validateSupportLinkTest" duration-ms="72" started-at="2019-08-18T17:40:49Z" finished-at="2019-08-18T17:40:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSupportLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.test.OpenWeatherMapTest@4fe3c938]" name="tearDown" is-config="true" duration-ms="970" started-at="2019-08-18T17:40:49Z" finished-at="2019-08-18T17:40:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.test.OpenWeatherMapTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
